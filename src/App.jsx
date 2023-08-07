@@ -17,7 +17,7 @@ export default function App() {
     <>
       <div style={app}>
         <div className="container">
-          <Weather />
+          <Weather  defaultCity = "New York"/>
           <div className="row">
             <div className="col-12">
               <footer style={footer}>
