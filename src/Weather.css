@@ -45,6 +45,8 @@ li {
 .Weather,
 .imgStyle {
   display: flex;
+  align-items: center;
+  margin-top: 5px;
 }
 .Weather,
 .unit {
