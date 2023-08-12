@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 
 export default function WeatherTemperature(props) {
+  // unit is state that we render
+  // setUnit - update out state 
   const [unit, setUnit] = useState("celsius");
   function covertToFahrenheit(event) {
     event.preventDefault();
